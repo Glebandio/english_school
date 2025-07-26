@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="UTF-8">
+	<!-- Useful meta tags -->
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow, noodp">
+	<meta name="googlebot" content="index, follow">
+	<meta name="google" content="notranslate">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!--favicon-->
+	<link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>Главная страница</title>
+	<link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+	<div class="page">
+		<header class="header">
+			<div class="header__top header__fixed">
+				<div class="container header__top-wrapp">
+					<a href="#" class="header__logo">
+						<img src="assets/img/logo.svg" alt="">
+					</a>
+					<!--data-open-modal служит для вызова модального окна. передается id модального окна-->
+					<!--data-da служит для перемещения элемента в другой блок на различных разрешения-->
+					<!--
+				первый параметр селектор куда надо перенести,
+				второй параметр брейкпоинт,
+				третий параметр позиция order.
+			-->
+					<a href="#" class="header__btn header__btn-test close-menu" data-da=".header__nav-wrapp, 992, 2"
+						data-open-modal="modal-test">
+						Пройти онлайн-тест
+					</a>
+					<a href="#" class="header__btn header__btn-lesson" data-open-modal="modal-test">
+						Записаться на пробные уроки
+					</a>
+					<div data-da=".header__nav-wrapp, 772, 2" class="header__top-coll">
+						<a href="tel:+74951424259" target="_blank" class="header__tell close-menu">
+							+7 (495) 142-42-59
+						</a>
+						<a href="tel:+79779775678" target="_blank" class="header__tell close-menu">
+							+7 (977) 977-56-78
+						</a>
+					</div>
+					<button type="button" class="header__menu-open">
+						<svg width="44" height="24" viewBox="0 0 44 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M2 2H42" stroke="#151515" stroke-width="3" stroke-linecap="round" />
+							<path d="M2 12H42" stroke="#151515" stroke-width="3" stroke-linecap="round" />
+							<path d="M2 12H42" stroke="#151515" stroke-width="3" stroke-linecap="round" />
+							<path d="M2 22H42" stroke="#151515" stroke-width="3" stroke-linecap="round" />
+						</svg>
+
+					</button>
+				</div>
+			</div>
+			<nav class="header__nav">
+				<div class="container header__nav-wrapp">
+					<button type="button" class="header__menu-close close-menu">
+						<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L19.1421 19.1421" stroke="#151515" stroke-width="2" stroke-linecap="round" />
+							<path d="M1 19.1421L19.1421 0.999999" stroke="#151515" stroke-width="2"
+								stroke-linecap="round" />
+						</svg>
+					</button>
+					<ul class="header__nav-list">
+						<li class="header__nav-inner">
+							<a href="#" class="header__nav-link close-menu">
+								ГЛАВНАЯ
+							</a>
+						</li>
+						<li class="header__nav-inner">
+							<a href="#" class="header__nav-link close-menu">
+								3-6 ЛЕТ
+							</a>
+						</li>
+						<li class="header__nav-inner">
+							<a href="#" class="header__nav-link close-menu">
+								1-4 КЛАСС
+							</a>
+						</li>
+						<li class="header__nav-inner">
+							<a href="#" class="header__nav-link close-menu">
+								5-11 КЛАСС
+							</a>
+						</li>
+						<li class="header__nav-inner">
+							<a href="#" class="header__nav-link close-menu">
+								ВЗРОСЛЫЕ
+							</a>
+						</li>
+
+						<li class="header__nav-inner  ">
+							<button class="header__nav-link   header-select-btn">
+								ДОП. КУРСЫ
+							</button>
+							<div class="  header-select-body">
+								<ul class=" header-select-list">
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Клубы для детей и подростков
+										</a>
+									</li>
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Онлайн-занятия
+										</a>
+									</li>
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Групповое обучение
+										</a>
+									</li>
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Индивидуальное обучение
+										</a>
+									</li>
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Корпоративное обучение
+										</a>
+									</li>
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Подготовка к ГИА \ ЕГЭ
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="header__nav-inner">
+							<a href="#" class="header__nav-link close-menu">
+								АКЦИИ
+							</a>
+						</li>
+						<li class="header__nav-inner  ">
+							<button class="header__nav-link   header-select-btn">
+								О НАС
+							</button>
+							<div class=" header-select-body">
+								<ul class="  header-select-list">
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Методика
+										</a>
+									</li>
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Пробные занятия
+										</a>
+									</li>
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Оплата мат.капиталом
+										</a>
+									</li>
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Отзывы
+										</a>
+									</li>
+									<li class="header-select-inner">
+										<a href="#" class="header-select-link header__nav-link close-menu">
+											Контакты
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="header__rating close-menu">
+						<iframe class="header__rating-iframe"
+							src="https://yandex.ru/sprav/widget/rating-badge/1176587986?type=rating" width="150"
+							height="50"></iframe>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="frontpage">
+			<section class="main">
+				<div class="container">
+					<div class="main__wrap">
+						<div class="main__card-first main-box">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M1.58182 12.5818L2.12727 12.8545C4.29091 13.9636 6.03637 15.7091 7.14546 17.8727L7.41818 18.4182C8.49091 20.5273 11.5091 20.5273 12.5818 18.4182L12.8545 17.8727C13.9636 15.7091 15.7091 13.9636 17.8727 12.8545L18.4182 12.5818C20.5273 11.5091 20.5273 8.49091 18.4182 7.41818L17.8727 7.14546C15.7091 6.03637 13.9636 4.29091 12.8545 2.12727L12.5818 1.58182C11.5091 -0.527273 8.49091 -0.527273 7.41818 1.58182L7.14546 2.12727C6.03637 4.29091 4.29091 6.03637 2.12727 7.14546L1.58182 7.41818C-0.527273 8.49091 -0.527273 11.5091 1.58182 12.5818Z"
+									fill="white" />
+							</svg>
+							<p class="main-box-text">
+								<strong>Образовательная лицензия: </strong>
+								получайте вычет 13% или оплачивайте мат. капиталом
+							</p>
+						</div>
+						<div class="main__row">
+							<div class="main__card-third main-box">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M1.58182 12.5818L2.12727 12.8545C4.29091 13.9636 6.03637 15.7091 7.14546 17.8727L7.41818 18.4182C8.49091 20.5273 11.5091 20.5273 12.5818 18.4182L12.8545 17.8727C13.9636 15.7091 15.7091 13.9636 17.8727 12.8545L18.4182 12.5818C20.5273 11.5091 20.5273 8.49091 18.4182 7.41818L17.8727 7.14546C15.7091 6.03637 13.9636 4.29091 12.8545 2.12727L12.5818 1.58182C11.5091 -0.527273 8.49091 -0.527273 7.41818 1.58182L7.14546 2.12727C6.03637 4.29091 4.29091 6.03637 2.12727 7.14546L1.58182 7.41818C-0.527273 8.49091 -0.527273 11.5091 1.58182 12.5818Z"
+										fill="white" />
+								</svg>
+								<p class="main-box-text">
+									<strong>Скидка от 15% </strong>
+									при покупке абонемента на 3 месяца
+								</p>
+							</div>
+						</div>
+						<div class="main__row">
+							<div class="main__card-first main-box">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M1.58182 12.5818L2.12727 12.8545C4.29091 13.9636 6.03637 15.7091 7.14546 17.8727L7.41818 18.4182C8.49091 20.5273 11.5091 20.5273 12.5818 18.4182L12.8545 17.8727C13.9636 15.7091 15.7091 13.9636 17.8727 12.8545L18.4182 12.5818C20.5273 11.5091 20.5273 8.49091 18.4182 7.41818L17.8727 7.14546C15.7091 6.03637 13.9636 4.29091 12.8545 2.12727L12.5818 1.58182C11.5091 -0.527273 8.49091 -0.527273 7.41818 1.58182L7.14546 2.12727C6.03637 4.29091 4.29091 6.03637 2.12727 7.14546L1.58182 7.41818C-0.527273 8.49091 -0.527273 11.5091 1.58182 12.5818Z"
+										fill="white" />
+								</svg>
+								<p class="main-box-text">
+									<strong>Образовательная лицензия: </strong>
+									получайте вычет 13% или оплачивайте мат. капиталом
+								</p>
+							</div>
+							<div class="main__card-second main-box">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M1.58182 12.5818L2.12727 12.8545C4.29091 13.9636 6.03637 15.7091 7.14546 17.8727L7.41818 18.4182C8.49091 20.5273 11.5091 20.5273 12.5818 18.4182L12.8545 17.8727C13.9636 15.7091 15.7091 13.9636 17.8727 12.8545L18.4182 12.5818C20.5273 11.5091 20.5273 8.49091 18.4182 7.41818L17.8727 7.14546C15.7091 6.03637 13.9636 4.29091 12.8545 2.12727L12.5818 1.58182C11.5091 -0.527273 8.49091 -0.527273 7.41818 1.58182L7.14546 2.12727C6.03637 4.29091 4.29091 6.03637 2.12727 7.14546L1.58182 7.41818C-0.527273 8.49091 -0.527273 11.5091 1.58182 12.5818Z"
+										fill="white" />
+								</svg>
+								<p class="main-box-text">
+									<strong>Приложение </strong>
+								для закрепления пройденного материала
+								</p>
+							</div>
+						</div>
+						
+						<div class="main__card-second main-box">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M1.58182 12.5818L2.12727 12.8545C4.29091 13.9636 6.03637 15.7091 7.14546 17.8727L7.41818 18.4182C8.49091 20.5273 11.5091 20.5273 12.5818 18.4182L12.8545 17.8727C13.9636 15.7091 15.7091 13.9636 17.8727 12.8545L18.4182 12.5818C20.5273 11.5091 20.5273 8.49091 18.4182 7.41818L17.8727 7.14546C15.7091 6.03637 13.9636 4.29091 12.8545 2.12727L12.5818 1.58182C11.5091 -0.527273 8.49091 -0.527273 7.41818 1.58182L7.14546 2.12727C6.03637 4.29091 4.29091 6.03637 2.12727 7.14546L1.58182 7.41818C-0.527273 8.49091 -0.527273 11.5091 1.58182 12.5818Z"
+									fill="white" />
+							</svg>
+							<p class="main-box-text">
+								<strong>Приложение </strong>
+								для закрепления пройденного материала
+							</p>
+						</div>
+						<div class="main__card-third main-box">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M1.58182 12.5818L2.12727 12.8545C4.29091 13.9636 6.03637 15.7091 7.14546 17.8727L7.41818 18.4182C8.49091 20.5273 11.5091 20.5273 12.5818 18.4182L12.8545 17.8727C13.9636 15.7091 15.7091 13.9636 17.8727 12.8545L18.4182 12.5818C20.5273 11.5091 20.5273 8.49091 18.4182 7.41818L17.8727 7.14546C15.7091 6.03637 13.9636 4.29091 12.8545 2.12727L12.5818 1.58182C11.5091 -0.527273 8.49091 -0.527273 7.41818 1.58182L7.14546 2.12727C6.03637 4.29091 4.29091 6.03637 2.12727 7.14546L1.58182 7.41818C-0.527273 8.49091 -0.527273 11.5091 1.58182 12.5818Z"
+									fill="white" />
+							</svg>
+							<p class="main-box-text">
+								<strong>Скидка от 15% </strong>
+								при покупке абонемента на 3 месяца
+							</p>
+						</div>
+						<div class="main__little-bottom">
+							<img src="./assets/img/frontpage/main/little_bottom.png" alt="">
+						</div>
+						<div class="main__little-top">
+							<img src="./assets/img/frontpage/main/little_top.png" alt="">
+						</div>
+						<div class="main__big">
+							<img src="assets/img/frontpage/main/big.png" alt="">
+							<div class="main__big--banner">
+								<h1>
+									Английский <br>
+									<span>для подростков на Речном вокзале</span>
+								</h1>
+								<div class="main__big--point">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M1.58182 12.5818L2.12727 12.8545C4.29091 13.9636 6.03637 15.7091 7.14546 17.8727L7.41818 18.4182C8.49091 20.5273 11.5091 20.5273 12.5818 18.4182L12.8545 17.8727C13.9636 15.7091 15.7091 13.9636 17.8727 12.8545L18.4182 12.5818C20.5273 11.5091 20.5273 8.49091 18.4182 7.41818L17.8727 7.14546C15.7091 6.03637 13.9636 4.29091 12.8545 2.12727L12.5818 1.58182C11.5091 -0.527273 8.49091 -0.527273 7.41818 1.58182L7.14546 2.12727C6.03637 4.29091 4.29091 6.03637 2.12727 7.14546L1.58182 7.41818C-0.527273 8.49091 -0.527273 11.5091 1.58182 12.5818Z"
+											fill="white" />
+									</svg>
+									<div>
+										Современный курс для школьников
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </section>
+			<section class="stages">
+				<div class="container stages-row">
+					<div class="stages__box">
+						<img class="stages__box-img" src="assets/img/frontpage/stages/stages-1.svg" alt="">
+						<h3 class="stages__box-title">
+							Качество
+						</h3>
+						<p class="stages__box-text">
+							<span>30 лет опыта</span><br> в обучении детей,<br>подростков и взрослых
+						</p>
+					</div>
+					<div class="stages__box">
+						<img class="stages__box-img" src="assets/img/frontpage/stages/stages-2.png" alt="">
+						<h3 class="stages__box-title">
+							Коллектив
+						</h3>
+						<p class="stages__box-text">
+							<span>20 ежегодных <br> тренингов</span> 
+							по психологии и&nbsp;методике
+						</p>
+					</div>
+					<div class="stages__box">
+						<img class="stages__box-img" src="assets/img/frontpage/stages/stages-3.svg" alt="">
+						<h3 class="stages__box-title">
+							Доверие
+						</h3>
+						<p class="stages__box-text">
+							<span>5.0 рейтинг школы<br></span>
+							от наших учеников <br>
+							на яндекс-отзывах
+						</p>
+					</div>
+					<div class="stages__box">
+						<img class="stages__box-img" src="assets/img/frontpage/stages/stages-4.png" alt="">
+						<h3 class="stages__box-title">
+							Репутация
+						</h3>
+						<p class="stages__box-text">
+							<span>70% учеников</span>
+							приходят по&nbsp;рекомендациям <br>
+							от знакомых
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="form">
+                <div class="container">
+                    <div class="form__block yellow">
+                        <div class="form__block-top">
+                            <div class="form__block-text">
+                                <p class="head_text">
+                                    Расскажите о своих целях
+                                </p>
+                                <p>
+                                    И мы подберем подходящий курс
+                                </p>
+                            </div>
+                            <form action="#" method="POST">
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="tel" placeholder="Ваш телефон">
+                                <button type="submit" class="btn btn-hover">ЗАПИСАТЬСЯ</button>
+                                <span>Нажимая на кнопку, вы соглашаетесь c <a href="">политикой
+                                        конфиденциальности</a></span>
+                            </form>
+                        </div>
+                        <div class="form__block-bottom">
+                            <p>
+                                <strong>Посетите реальное занятие</strong> в&nbsp;группе, соответствующей
+                                вашему&nbsp;уровню
+                            </p>
+                            <p>
+                                <strong>Оцените преимущества</strong> методики&nbsp;нашей школы
+                                и&nbsp;уровень&nbsp;подготовки учителей
+                            </p>
+                            <p>
+                                <strong>Выбирайте тип оплаты,</strong> подходящей&nbsp;для Вас
+                                <br>(1&nbsp;или&nbsp;3&nbsp;месяца)
+                            </p>
+                        </div>
+						<div class="form__block-bottom">
+							<p>
+                                <strong>Оцените преимущества</strong> методики&nbsp;нашей школы
+                                и&nbsp;уровень&nbsp;подготовки учителей
+                            </p>
+						</div>
+						<div class="form__block-bottom">
+							<p>
+                                <strong>Выбирайте тип оплаты,</strong> подходящей&nbsp;для Вас
+                                (1&nbsp;или&nbsp;3&nbsp;месяца)
+                            </p>
+						</div>
+                    </div>
+                </div>
+            </section>
+			<section class="groups">
+                <div class="container">
+                    <h2 class="groups-title title">
+                        Программы обучения
+                    </h2>
+                    <div class="groups__wrapp">
+                        <div class="groups__box">
+                            <div class="groups__box-img">
+                                <img src="assets/img/teenagers/group1/1.png" alt="">
+                            </div>
+                            <div class="groups__box-body fixed">
+                                <div class="groups__box-coll">
+                                    <h3 class="groups-box-title">
+                                        Курсы английского для&nbsp;дошкольников
+                                    </h3>
+                                    <p class="groups-box-text text">
+                                        Используем уникальную игровую методику 
+										преподавания английского языка, 
+										разработанную на основе научных 
+										исследований о раннем развитии ребенка
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn groups-btn btn-hover" data-open-modal="modal-test">
+                                ПОДРОБНЕЕ
+                            </a>
+                        </div>
+
+                        <div class="groups__box">
+                            <div class="groups__box-img">
+                                <img src="assets/img/teenagers/group1/2.png" alt="">
+                            </div>
+                            <div class="groups__box-body fixed">
+                                <div class="groups__box-coll">
+                                    <h3 class="groups-box-title">
+                                        Английский для младшеклассников
+                                    </h3>
+                                    <p class="groups-box-text text">
+                                        Обучение происходит с погружением 
+										в англоязычную среду, с помощью 
+										коммуникативной методики, через 
+										интерактивные игры, песни, мультфильмы 
+										и повторение за преподавателем
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn groups-btn btn-hover" data-open-modal="modal-test">
+                                ПОДРОБНЕЕ
+                            </a>
+                        </div>
+
+                        <div class="groups__box">
+                            <div class="groups__box-img">
+                                <img src="assets/img/teenagers/group1/3.png" alt="">
+                            </div>
+                            <div class="groups__box-body fixed">
+                                <div class="groups__box-coll">
+                                    <h3 class="groups-box-title">
+                                        Курсы английского для&nbsp;подростков
+                                    </h3>
+                                    <p class="groups-box-text text">
+                                        Прорабатываем все основные навыки, 
+										которые необходимы для свободного 
+										владения иностранным языком на каждой 
+										ступеньке - письмо, чтение, восприятие 
+										речи на слух и разговорная практика
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn groups-btn btn-hover" data-open-modal="modal-test">
+                                ПОДРОБНЕЕ
+                            </a>
+                        </div>
+
+                        <div class="groups__box">
+                            <div class="groups__box-img">
+                                <img src="assets/img/teenagers/group1/4.png" alt="">
+                            </div>
+                            <div class="groups__box-body fixed">
+                                <div class="groups__box-coll">
+                                    <h3 class="groups-box-title">
+                                        Курсы английского для&nbsp;взрослых
+                                    </h3>
+                                    <p class="groups-box-text text">
+                                        Занятия проходят в соответствии 
+										с коммуникативной методикой обучения 
+										английскому языку и проводятся в группах 
+										из 3-7 студентов
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn groups-btn btn-hover" data-open-modal="modal-test">
+                                ПОДРОБНЕЕ
+                            </a>
+                        </div>
+
+                        <div class="groups__box">
+                            <div class="groups__box-img">
+                                <img src="assets/img/teenagers/group1/5.png" alt="">
+                            </div>
+                            <div class="groups__box-body fixed">
+                                <div class="groups__box-coll">
+                                    <h3 class="groups-box-title">
+                                        Онлайн занятия<br><br>
+                                    </h3>
+                                    <p class="groups-box-text text">
+                                        Курс разговорного английского 
+										в мини-группах на платформе Zoom
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn groups-btn btn-hover" data-open-modal="modal-test">
+                                ПОДРОБНЕЕ
+                            </a>
+                        </div>
+
+                        <div class="groups__box">
+                            <div class="groups__box-img">
+                                <img src="assets/img/teenagers/group1/6.png" alt="">
+                            </div>
+                            <div class="groups__box-body fixed">
+                                <div class="groups__box-coll">
+                                    <h3 class="groups-box-title">
+                                        Индивидуальное <br>обучение
+                                    </h3>
+                                    <p class="groups-box-text text">
+                                        Для тех, кто хочет иметь персональный 
+										курс обучения, удобные расписание и 
+										продолжительность занятия
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn groups-btn btn-hover" data-open-modal="modal-test">
+                                ПОДРОБНЕЕ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			<section class="situation">
+				<div class="container">
+					<h2 class="situation-title">
+						Почему выбирают нас?
+					</h2>
+					<div class="situation__wrapp">
+						<div class="situation__box">
+							<h3 class="situation-box-title">
+								A
+							</h3>
+							<p class="situation-box-text">
+								<strong>Тщательное тестирование </strong>и&nbsp;определение начального уровня владения языком
+							</p>
+						</div>
+						<div class="situation__box">
+							<h3 class="situation-box-title">
+								B
+							</h3>
+							<p class="situation-box-text">
+								<strong>Подбор расписания <br>и группы </strong>с учетом индивидуальных качеств и&nbsp;пожеланий ученика
+							</p>
+						</div>
+						<div class="situation__box pale-lavender-background">
+							<h3 class="situation-box-title">
+								C
+							</h3>
+							<p class="situation-box-text">
+								<strong>Выдача&nbsp;именного&nbsp;диплома, <br></strong> как подтверждение вашего уровня знаний
+							</p>
+						</div>
+						<div class="situation__box pale-lavender-background">
+							<h3 class="situation-box-title">
+								D
+							</h3>
+							<p class="situation-box-text">
+								<strong>Профессиональные <br>педагоги,</strong> готовые помочь преодолеть языковой <br> барьер
+							</p>
+						</div>
+						<div class="situation__box ">
+							<h3 class="situation-box-title">
+								E
+							</h3>
+							<p class="situation-box-text ">
+								<strong>Отслеживание прогресса</strong> благодаря эффективной отработаной методике
+							</p>
+						</div>
+						<div class="situation__box situation__box-svg-add">
+
+							<h3 class="situation-box-title">
+								F
+							</h3>
+							<p class="situation-box-text">
+								Достижение лучшего результата в понимании языка, благодаря 
+								<strong>группам&nbsp;до 8 человек</strong>
+							</p>
+
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="team">
+				<div class="container team__wrapp">
+					<h2 class="team__title title">
+						Наша команда
+					</h2>
+
+
+					<div class="team__team-row">
+						<div class="team__row-coll">
+							<p class="team__row-text text">
+								Наши педагоги - это команда профессионалов, любящих свое дело!
+							</p>
+							<p class="team__row-text  text">
+								В нашей школе
+								<span>преподаватели проходят серьезный трехуровневый отбор</span>
+								подробное вводное обучение работе с группами, возрастной психологии и триггерам
+								мотивации.
+							</p>
+							<p class="team__row-text  text">
+								Академический директор
+								и методист
+								<span>регулярно посещают
+									и оценивают занятия,</span>
+								проводят  обучающие семинары и дают обратную связь и рекомендации преподавателям.
+							</p>
+						</div>
+						<div class="team__swiper">
+							<ul class="team__swiper-wrapper swiper-wrapper">
+
+								<li class="team__swiper-inner swiper-slide">
+									<div class="team__user-img">
+										<img src="assets/img/team/team-1.png" alt="">
+									</div>
+									<h3 class="team__user-name text">
+										Ольга
+									</h3>
+									<p class="team__user-job text">
+										Руководитель
+										и&nbsp;академический директор филиала Denis’&nbsp;School
+									</p>
+									<a href="#" class="team__user-link  btn-hover  btn ">
+										ПОДРОБНЕЕ
+									</a>
+								</li>
+
+								<li class="team__swiper-inner swiper-slide">
+									<div class="team__user-img">
+										<img src="assets/img/team/team-2.png" alt="">
+									</div>
+									<h3 class="team__user-name text">
+										Екатерина
+									</h3>
+									<p class="team__user-job text">
+										Преподаватель английского языка, ведущая мероприятий
+									</p>
+									<a href="#" class="team__user-link  btn-hover  btn">
+										ПОДРОБНЕЕ
+									</a>
+								</li>
+
+								<li class="team__swiper-inner swiper-slide">
+									<div class="team__user-img">
+										<img src="assets/img/team/team-1.png" alt="">
+									</div>
+									<h3 class="team__user-name text">
+										Ольга
+									</h3>
+									<p class="team__user-job text">
+										Руководитель
+										и академический директор филиала Denis’ School
+									</p>
+									<a href="#" class="team__user-link  btn-hover  btn">
+										ПОДРОБНЕЕ
+									</a>
+								</li>
+
+								<li class="team__swiper-inner swiper-slide">
+									<div class="team__user-img">
+										<img src="assets/img/team/team-2.png" alt="">
+									</div>
+									<h3 class="team__user-name text">
+										Екатерина
+									</h3>
+									<p class="team__user-job text">
+										Преподаватель английского языка, ведущая мероприятий
+									</p>
+									<a href="#" class="team__user-link  btn-hover  btn">
+										ПОДРОБНЕЕ
+									</a>
+								</li>
+
+							</ul>
+
+
+
+						</div>
+					</div>
+					<div class="team__btn-box btn-swiper-row">
+						<button class="team__btn team__btn-prev btn-swiper">
+							<svg class="btn-swiper-arrow" width="20" height="29" viewBox="0 0 20 29" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M18 2L3 14.0968L18 27" stroke="#6100DC" stroke-width="3"
+									stroke-linecap="round" />
+							</svg>
+						</button>
+						<button class="team__btn team__btn-next  btn-swiper">
+							<svg class="btn-swiper-arrow" width="18" height="27" viewBox="0 0 18 27" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 1L16 13.0968L1 26" stroke="#6100DC" stroke-width="2"
+									stroke-linecap="round" />
+							</svg>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="picture frontpage">
+                <div class="container">
+                    <div class="picture__swipper">
+                        <div class="picture__swiper-wrapper swiper-wrapper">
+                            <div class="picture__swiper-inner swiper-slide">
+                                <img src="./assets/img/teenagers/swiper-picture/1.png" alt="">
+                            </div>
+                            <div class="picture__swiper-inner swiper-slide">
+                                <img src="./assets/img/teenagers/swiper-picture/2.png" alt="">
+                            </div>
+                            <div class="picture__swiper-inner swiper-slide">
+                                <img src="./assets/img/teenagers/swiper-picture/1.png" alt="">
+                            </div>
+                            <div class="picture__swiper-inner swiper-slide">
+                                <img src="./assets/img/teenagers/swiper-picture/2.png" alt="">
+                            </div>
+                            <div class="picture__swiper-inner swiper-slide">
+                                <img src="./assets/img/teenagers/swiper-picture/1.png" alt="">
+                            </div>
+                            <div class="picture__swiper-inner swiper-slide">
+                                <img src="./assets/img/teenagers/swiper-picture/2.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="picture_arrow">
+                            <button class="picture__btn-prev btn-swiper">
+                                <svg class="btn-swiper-arrow" width="20" height="29" viewBox="0 0 20 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 2L3 14.0968L18 27" stroke="#6100DC" stroke-width="3"
+                                    stroke-linecap="round" />
+                            </svg>
+                            </button>
+                            <button class="picture__btn-next btn-swiper">
+                                <svg class="btn-swiper-arrow" width="18" height="27" viewBox="0 0 18 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L16 13.0968L1 26" stroke="#6100DC" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			<section class="method">
+				<div class="container">
+					<h2 class="method__title title">Методика обучения</h2>
+					<div class="method__wrap">
+						<div class="method__card">
+							<div class="method__card-text">
+								<div class="method__card-image">
+									<img src="./assets/img/frontpage/method/method-1.svg" alt="">
+								</div>
+								<p>Комплексный подход и&nbsp;авторская методика </p>
+							</div>
+							<div class="method__card-button btn btn-hover">
+								<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M25 15L25 35" stroke="white" stroke-width="2" stroke-linecap="round"/>
+									<path d="M15 25L35 25" stroke="white" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+							</div>
+							<div class="method__card-description">
+								<p>текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст </p>
+							</div>
+						</div>
+						<div class="method__card">
+							<div class="method__card-text">
+								<div class="method__card-image">
+									<img src="./assets/img/frontpage/method/method-2.svg" alt="">
+								</div>
+								<p>Реальные разговорные ситуации и ролевые игры в&nbsp;обучении</p>
+							</div>
+							<div class="method__card-button btn btn-hover">
+								<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M25 15L25 35" stroke="white" stroke-width="2" stroke-linecap="round"/>
+									<path d="M15 25L35 25" stroke="white" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+							</div>
+							<div class="method__card-description">
+								<p>текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст </p>
+							</div>
+						</div>
+						<div class="method__card">
+							<div class="method__card-text">
+								<div class="method__card-image">
+									<img src="./assets/img/frontpage/method/method-3.svg" alt="">
+								</div>
+								<p>Интенсивное изучение новых слов </p>
+							</div>
+							<div class="method__card-button btn btn-hover">
+								<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M25 15L25 35" stroke="white" stroke-width="2" stroke-linecap="round"/>
+									<path d="M15 25L35 25" stroke="white" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+							</div>
+							<div class="method__card-description">
+								<p>текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст </p>
+							</div>
+						</div>
+						<div class="method__card">
+							<div class="method__card-text">
+								<div class="method__card-image">
+									<img src="./assets/img/frontpage/method/method-4.svg" alt="">
+								</div>
+								<p>Интенсивное аудирование для погружения в языковую среду</p>
+							</div>
+							<div class="method__card-button btn btn-hover">
+								<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M25 15L25 35" stroke="white" stroke-width="2" stroke-linecap="round"/>
+									<path d="M15 25L35 25" stroke="white" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+							</div>
+							<div class="method__card-description">
+								<p>текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст </p>
+							</div>
+						</div>
+						<div class="method__card">
+							<div class="method__card-text">
+								<div class="method__card-image">
+									<img src="./assets/img/frontpage/method/method-5.svg" alt="">
+								</div>
+								<p>Опора на родной язык в изучении грамматических правил</p>
+							</div>
+							<div class="method__card-button btn btn-hover">
+								<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M25 15L25 35" stroke="white" stroke-width="2" stroke-linecap="round"/>
+									<path d="M15 25L35 25" stroke="white" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+							</div>
+							<div class="method__card-description">
+								<p>текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст </p>
+							</div>
+						</div>
+						<div class="method__card">
+							<div class="method__card-text">
+								<div class="method__card-image">
+									<img src="./assets/img/frontpage/method/method-6.png" alt="">
+								</div>
+								<p>Индивидуальный план домашних заданий </p>
+							</div>
+							<div class="method__card-button btn btn-hover">
+								<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M25 15L25 35" stroke="white" stroke-width="2" stroke-linecap="round"/>
+									<path d="M15 25L35 25" stroke="white" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+							</div>
+							<div class="method__card-description">
+								<p>текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="form">
+                <div class="container">
+                    <div class="form__block blue">
+                        <div class="form__block-top">
+                            <div class="form__block-text">
+                                <p class="head_text">
+                                    3 пробных урока
+                                </p>
+                                <p>
+                                    Заполните данные и мы свяжемся с&nbsp;Вами в ближайшее время
+                                </p>
+                            </div>
+                            <form action="#" method="POST">
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="tel" placeholder="Ваш телефон">
+                                <button type="submit" class="btn btn-hover">ЗАПИСАТЬСЯ</button>
+                                <span>Нажимая на кнопку, вы соглашаетесь c <a href="">политикой
+                                        конфиденциальности</a></span>
+                            </form>
+                        </div>
+                        <div class="form__block-bottom">
+                            <p>
+                                <strong>На встрече с методистом </strong> <br>для ученика подбирается группа, подходящая
+                                по возрасту, уровню и&nbsp;расписанию
+                            </p>
+                            <p>
+                                <strong>Следующий этап -</strong> проверить, понравился ли наш выбор. Мы приглашаем
+                                ученика в выбранную группу на пробный урок
+                            </p>
+                            <p>
+                                <strong>Если остаются сомнения,</strong> мы можем&nbsp;предложить сходить на пробный
+                                урок в другую группу, и&nbsp;сделать окончательный <br>выбор
+                            </p>
+                        </div>
+						<div class="form__block-bottom">
+							<p>
+                                <strong>Следующий этап -</strong> проверить, понравился ли наш выбор. Мы приглашаем
+                                ученика в выбранную группу на пробный урок
+                            </p>
+						</div>
+						<div class="form__block-bottom">
+							<p>
+                                <strong>Если остаются сомнения,</strong> мы можем&nbsp;предложить сходить на пробный
+                                урок в другую группу, и&nbsp;сделать окончательный <br>выбор
+                            </p>
+						</div>
+                    </div>
+                </div>
+            </section>
+			<section class="reviews">
+                <div class="container reviews__wrapp">
+                    <h2 class="reviews-title title">
+                        Отзывы родителей и учеников
+                    </h2>
+
+                    <div class="reviews__swiper">
+                        <ul class="reviews__swiper-wrapper swiper-wrapper">
+
+                            <li class="reviews__swiper-inner swiper-slide">
+                                <img src="./assets/img/teenagers/reviews/1.png" alt="">
+                            </li>
+                            <li class="reviews__swiper-inner swiper-slide">
+
+                                <h3 class="reviews__name text">
+                                    Мария
+                                </h3>
+                                <p class="reviews__text text">
+                                    Сыну очень нравится посещать занятия, идёт с удовольствием, группа небольшая,
+                                    занятия
+                                    интересные, не простое вбивание грамматики и зубрежка слов, учитель в школе
+                                    отметила, что
+                                    успеваемость улучшилась. Преподаватель ребенку нравится, хорошо доносит материал.
+                                </p>
+
+                            </li>
+                            <li class="reviews__swiper-inner swiper-slide">
+
+                                <h3 class="reviews__name text">
+                                    Ирина Вертек
+                                </h3>
+                                <p class="reviews__text text">
+                                    Старший ребенок занимается 3 года, ходит с желанием. Понимает все песни на англ
+                                    языке, общается
+                                    в играх с ровесниками из других стран без стеснения. У школы своя методика и
+                                    атмосфера, есть
+                                    спец мероприятия выходного дня. Всё
+                                    на высоком уровне. Мы очень довольны!
+                                </p>
+
+                            </li>
+
+                            <li class="reviews__swiper-inner swiper-slide">
+
+                                <h3 class="reviews__name text">
+                                    Виктория
+                                </h3>
+                                <p class="reviews__text text">
+                                    Занимаемся уже 3 год в данной школе. Преподаватель - Ольга очень грамотный
+                                    специалист, который
+                                    прекрасно подаёт материал. Мой ребенок хорошо все запоминает. Преподаватель Ольга
+                                    очень
+                                    внимательна к каждому ученику. Школой очень довольны.
+                                </p>
+
+                            </li>
+                            <li class="reviews__swiper-inner swiper-slide">
+                                <input id="reviews-2" class="reviews-input" type="checkbox" name="reviews-check">
+                                <h3 class="reviews__name text">
+                                    Мария Е
+                                </h3>
+                                <p class="reviews__text text">
+                                    Замечательная школа . Искала дополнительный английский для ребенка, школьные занятия
+                                    не понимал.
+                                    Сходили на пробное занятие , ребёнку понравилось. Нам подобрали удобное для нас
+                                    время, все
+                                    объяснили по оплате и как
+                                    Замечательная школа . Искала дополнительный английский для ребенка, школьные занятия
+                                    не понимал.
+                                    Сходили на пробное занятие , ребёнку понравилось. Нам подобрали удобное для нас
+                                    время, все
+                                    объяснили по оплате и как
+                                </p>
+                                <label for="reviews-2" class="reviews-label">
+
+                                </label>
+                            </li>
+                            <li class="reviews__swiper-inner swiper-slide">
+
+                                <h3 class="reviews__name text">
+                                    Эльмира
+                                </h3>
+                                <p class="reviews__text text">
+                                    В школу перевела ребенка в этом году после 4-х лет обучения в другой школе.
+                                    Переводила потому
+                                    что ближе ездить. Но! Вижу более серьезный подход и лучше результат. Очень нравится
+                                    наш учитель
+                                    Даша! Ни сколько не жалеем о переходе. Обязательно продолжим заниматься!
+                                </p>
+
+                            </li>
+                            <li class="reviews__swiper-inner swiper-slide">
+                                <h3 class="reviews__name text">
+                                    Зоя Божанова
+                                </h3>
+                                <p class="reviews__text text">
+                                    Из ближайших,территориально подходящих школ, считаю выбор этой школы оптимальным.
+                                    Ходили на
+                                    занятия к разным преподавателям этой школы, были довольны. Ребёнок ходит с
+                                    удовольствием,
+                                    прогресс очевиден. Не жалею о выборе.
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="reviews__btn-box btn-swiper-row">
+                        <button class="reviews__btn reviews__btn-prev btn-swiper">
+                            <svg class="btn-swiper-arrow" width="20" height="29" viewBox="0 0 20 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 2L3 14.0968L18 27" stroke="#6100DC" stroke-width="3"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </button>
+                        <button class="reviews__btn reviews__btn-next  btn-swiper">
+                            <svg class="btn-swiper-arrow" width="18" height="27" viewBox="0 0 18 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L16 13.0968L1 26" stroke="#6100DC" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <a href="#" class="btn reviews-btn btn-hover">
+                        БОЛЬШЕ ОТЗЫВОВ
+                    </a>
+
+                </div>
+            </section>
+			<section class="feature">
+				<div class="container">
+					<h2 class="feature-title title">
+						Особенности занятий
+					</h2>
+					<div class="feature__wrapp">
+						<div class="feature__box feature__box-1">
+
+							<img src="assets/img/feature/feature-1.svg" alt="" class="feature__box-img">
+							<p class="feature__box-text text">
+								<span>Мы влюблены в свою профессию </span><br>
+								и с удовольствием делимся знаниями 
+								и энтузиазмом с нашими учениками. 
+								Мы выстраиваем процесс обучения 
+								таким образом, чтобы он был <span>цикличным, 
+								интересным и эффективным</span>
+							</p>
+						</div>
+						<div class="feature__box  feature__box-2">
+							<img src="assets/img/feature/feature-2.svg" alt="" class="feature__box-img">
+							<p class="feature__box-text text">
+								<span>Благодаря эффективной отработанной методике </span>
+								и профессиональному составу преподавателей, 
+								процесс изучения языка станет приятным, 
+								интересным и плодотворным. Мы очень ответственно
+								 относимся к процессу обучения, поэтому в наших группах обучается <span>не более 
+								8 учеников</span>
+							</p>
+						</div>
+						<div class="feature__box  feature__box-3">
+							<img src="assets/img/feature/feature-3.svg" alt="" class="feature__box-img">
+							<p class="feature__box-text text">
+								<span>Приходите на курсы английского языка в Ховрино </span>
+								и узнайте преимущества наших пробных уроков. 
+								Мы находимся в шаговой доступности от станций метро Ховрино,
+								Беломорская, Речной вокзал и Водный стадион
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="questions">
+				<div class="container">
+					<h2 class="questions-title title">
+						Вопросы и ответы
+					</h2>
+					<ul class="questions-list ">
+						<li class="questions__list-inner accordion">
+							<button type="button" class="questions-btn accordion-btn btn-hover">
+								<span class="questions-btn-title text">
+									Как организовано обучение?
+								</span>
+								<svg class="questions-btn-svg" width="38" height="39" viewBox="0 0 38 39" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<circle cx="19" cy="19.3438" r="19" fill="#6100DC" />
+									<line x1="8" y1="19.3438" x2="30" y2="19.3438" stroke="white" stroke-width="2" />
+									<line x1="19" y1="30.3437" x2="19" y2="8.34375" stroke="white" stroke-width="2" />
+								</svg>
+
+							</button>
+							<div class="questions__wrapp accordion__body">
+								<div class="questions__container text accordion__body-container">
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="questions__list-inner accordion">
+							<button type="button" class="questions-btn accordion-btn btn-hover">
+								<span class="questions-btn-title text">
+									По каким учебным пособиям проходит обучение?
+								</span>
+								<svg class="questions-btn-svg" width="38" height="39" viewBox="0 0 38 39" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<circle cx="19" cy="19.3438" r="19" fill="#6100DC" />
+									<line x1="8" y1="19.3438" x2="30" y2="19.3438" stroke="white" stroke-width="2" />
+									<line x1="19" y1="30.3437" x2="19" y2="8.34375" stroke="white" stroke-width="2" />
+								</svg>
+
+							</button>
+							<div class="questions__wrapp accordion__body">
+								<div class="questions__container text accordion__body-container">
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="questions__list-inner accordion">
+							<button type="button" class="questions-btn accordion-btn btn-hover">
+								<span class="questions-btn-title text">
+									Чем отличается наша программа от программы общеобразовательной школы?
+								</span>
+								<svg class="questions-btn-svg" width="38" height="39" viewBox="0 0 38 39" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<circle cx="19" cy="19.3438" r="19" fill="#6100DC" />
+									<line x1="8" y1="19.3438" x2="30" y2="19.3438" stroke="white" stroke-width="2" />
+									<line x1="19" y1="30.3437" x2="19" y2="8.34375" stroke="white" stroke-width="2" />
+								</svg>
+
+							</button>
+							<div class="questions__wrapp accordion__body">
+								<div class="questions__container text accordion__body-container">
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="questions__list-inner accordion">
+							<button type="button" class="questions-btn accordion-btn btn-hover">
+								<span class="questions-btn-title text">
+									Нужно ли помогать ребенку делать домашнее задание?
+								</span>
+								<svg class="questions-btn-svg" width="38" height="39" viewBox="0 0 38 39" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<circle cx="19" cy="19.3438" r="19" fill="#6100DC" />
+									<line x1="8" y1="19.3438" x2="30" y2="19.3438" stroke="white" stroke-width="2" />
+									<line x1="19" y1="30.3437" x2="19" y2="8.34375" stroke="white" stroke-width="2" />
+								</svg>
+
+							</button>
+							<div class="questions__wrapp accordion__body">
+								<div class="questions__container text accordion__body-container">
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="questions__list-inner accordion">
+							<button type="button" class="questions-btn accordion-btn btn-hover">
+								<span class="questions-btn-title text">
+									Для чего нужны дополнительные активности?
+								</span>
+								<svg class="questions-btn-svg" width="38" height="39" viewBox="0 0 38 39" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<circle cx="19" cy="19.3438" r="19" fill="#6100DC" />
+									<line x1="8" y1="19.3438" x2="30" y2="19.3438" stroke="white" stroke-width="2" />
+									<line x1="19" y1="30.3437" x2="19" y2="8.34375" stroke="white" stroke-width="2" />
+								</svg>
+
+							</button>
+							<div class="questions__wrapp accordion__body">
+								<div class="questions__container text accordion__body-container">
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="questions__list-inner accordion  ">
+							<button type="button" class="questions-btn accordion-btn btn-hover">
+								<span class="questions-btn-title text">
+									От каких факторов зависит результат обучения?
+								</span>
+								<svg class="questions-btn-svg" width="38" height="39" viewBox="0 0 38 39" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<circle cx="19" cy="19.3438" r="19" fill="#6100DC" />
+									<line x1="8" y1="19.3438" x2="30" y2="19.3438" stroke="white" stroke-width="2" />
+									<line x1="19" y1="30.3437" x2="19" y2="8.34375" stroke="white" stroke-width="2" />
+								</svg>
+
+							</button>
+							<div class="questions__wrapp accordion__body">
+								<div class="questions__container text accordion__body-container">
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и
+										совместный опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+									<p>
+										В итоге у ребят остается не только воспоминание своего успеха, но и совместный
+										опыт
+										подготовки чего-то важного в команде на английском языке. Мотивация к изучению
+										английского
+										повышается!
+									</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="map">
+				<div class="container">
+					<h2 class="map-title title">
+						Контакты
+					</h2>
+					<div class="map__wrapp">
+						<div class="map-container">
+							<iframe
+								src="https://yandex.ru/map-widget/v1/?um=constructor%3A3e2a2d17e82f62351a2815d13ab488caf03f2fb3b986359ee1a067ed0b45904e&amp;source=constructor"
+								width="560" height="470"></iframe>
+						</div>
+
+						<ul class="map__list  ">
+							<li class="map__list-innter map__list-innter-1">
+								<h3 class="map__list-title">
+									Адрес
+								</h3>
+								<p class="map__list-text">
+									Москва, м. Речной вокзал, <span class="map__list-text-block">ул. Лавочкина, 34.
+									</span>
+								</p>
+							</li>
+							<li class="map__list-innter map__list-innter-2">
+								<h3 class="map__list-title">
+									Схема проезда
+								</h3>
+							</li>
+							<li class="map__list-innter map__list-innter-3">
+
+								<p class="map__list-text">
+									<strong>Вход</strong> напротив Дворца спорта «Динамо»
+								</p>
+							</li>
+							<li class="map__list-innter map__list-innter-4">
+
+								<h3 class="map__list-title">
+									Контакты
+								</h3>
+								<a href="tel:+74951424259" target="_blank" class="map__list-link">
+									+7 (495) 142-42-59
+								</a>
+								<a href="mailto:msk-rv@dschool.ru" target="_blank" class="map__list-link">
+									msk-rv@dschool.ru
+								</a>
+							</li>
+							<li class="map__list-innter map__list-innter-5 map__message">
+								<a href="#" target="_blank" class="map__message-link btn-hover-yellow">
+									<svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.00963211 48.3437L3.25443 36.4205C1.11636 32.7554 -0.00693751 28.5869 3.22374e-05 24.3437C3.22374e-05 11.0885 10.7448 0.34375 24 0.34375C37.2552 0.34375 48 11.0885 48 24.3437C48 37.5989 37.2552 48.3437 24 48.3437C19.7587 48.3506 15.592 47.2281 11.928 45.0917L0.00963211 48.3437ZM15.3384 13.0829C15.0285 13.1022 14.7256 13.1838 14.448 13.3229C14.1877 13.4704 13.95 13.6547 13.7424 13.8701C13.4544 14.1413 13.2912 14.3765 13.116 14.6045C12.229 15.7589 11.7519 17.1759 11.76 18.6317C11.7648 19.8077 12.072 20.9525 12.552 22.0229C13.5336 24.1877 15.1488 26.4797 17.2824 28.6037C17.796 29.1149 18.2976 29.6285 18.8376 30.1061C21.4858 32.4376 24.6414 34.119 28.0536 35.0165L29.4192 35.2253C29.8632 35.2493 30.3072 35.2157 30.7536 35.1941C31.4526 35.158 32.1351 34.9688 32.7528 34.6397C33.0671 34.4778 33.3738 34.3017 33.672 34.1117C33.672 34.1117 33.7752 34.0445 33.972 33.8957C34.296 33.6557 34.4952 33.4853 34.764 33.2045C34.9632 32.9981 35.136 32.7557 35.268 32.4797C35.4552 32.0885 35.6424 31.3421 35.7192 30.7205C35.7768 30.2453 35.76 29.9861 35.7528 29.8253C35.7432 29.5685 35.5296 29.3021 35.2968 29.1893L33.9 28.5629C33.9 28.5629 31.812 27.6533 30.5376 27.0725C30.4032 27.014 30.2592 26.9806 30.1128 26.9741C29.9486 26.9573 29.7827 26.9757 29.6262 27.0283C29.4697 27.0809 29.3263 27.1663 29.2056 27.2789V27.2741C29.1936 27.2741 29.0328 27.4109 27.2976 29.5133C27.198 29.6472 27.0608 29.7483 26.9035 29.8039C26.7462 29.8594 26.576 29.8669 26.4144 29.8253C26.258 29.7835 26.1048 29.7306 25.956 29.6669C25.6584 29.5421 25.5552 29.4941 25.3512 29.4053L25.3392 29.4005C23.9662 28.8011 22.695 27.9914 21.5712 27.0005C21.2688 26.7365 20.988 26.4485 20.7 26.1701C19.7558 25.2659 18.9329 24.243 18.252 23.1269L18.1104 22.8989C18.0087 22.7457 17.9265 22.5805 17.8656 22.4069C17.7744 22.0541 18.012 21.7709 18.012 21.7709C18.012 21.7709 18.5952 21.1325 18.8664 20.7869C19.0922 20.4997 19.3029 20.2009 19.4976 19.8917C19.7808 19.4357 19.8696 18.9677 19.7208 18.6053C19.0488 16.9637 18.3528 15.3293 17.6376 13.7069C17.496 13.3853 17.076 13.1549 16.6944 13.1093C16.5648 13.0949 16.4352 13.0805 16.3056 13.0709C15.9833 13.0549 15.6603 13.0581 15.3384 13.0805V13.0829Z"
+											fill="#FFCD29" />
+									</svg>
+								</a>
+								<a href="#" target="_blank" class="map__message-link btn-hover-yellow">
+									<svg width="51" height="52" viewBox="0 0 51 52" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M25.4995 1.36377C11.9794 1.36377 1.01953 12.3237 1.01953 25.8438C1.01953 39.3639 11.9794 50.3238 25.4995 50.3238C39.0196 50.3238 49.9795 39.3639 49.9795 25.8438C49.9795 12.3237 39.0196 1.36377 25.4995 1.36377ZM34.9141 28.9828C34.9141 28.9828 37.0791 31.1197 37.612 32.1117C37.6273 32.1321 37.635 32.1525 37.6401 32.1627C37.8568 32.5273 37.9078 32.8104 37.8007 33.022C37.6222 33.3739 37.0102 33.5473 36.8011 33.5626H32.9761C32.7109 33.5626 32.155 33.4938 31.4818 33.0297C30.9642 32.6676 30.4542 32.0734 29.9569 31.4946C29.2149 30.6327 28.5723 29.8881 27.9246 29.8881C27.8423 29.8879 27.7606 29.9008 27.6823 29.9263C27.1927 30.0844 26.5654 30.7831 26.5654 32.6446C26.5654 33.226 26.1064 33.5601 25.7826 33.5601H24.0307C23.434 33.5601 20.3256 33.351 17.5716 30.4465C14.2005 26.8893 11.166 19.7544 11.1405 19.6881C10.9492 19.2265 11.3445 18.9792 11.7754 18.9792H15.6387C16.1538 18.9792 16.3221 19.2928 16.4394 19.5708C16.5771 19.8946 17.082 21.1824 17.9107 22.6308C19.2546 24.9921 20.0782 25.9509 20.7387 25.9509C20.8625 25.9494 20.9842 25.9179 21.0931 25.8591C21.955 25.3797 21.7944 22.3069 21.7561 21.6694C21.7561 21.5496 21.7536 20.295 21.3124 19.6932C20.9962 19.2571 20.4582 19.0914 20.1318 19.0302C20.2639 18.8479 20.4379 18.7001 20.6392 18.5992C21.2308 18.3034 22.2967 18.2601 23.355 18.2601H23.944C25.0915 18.2754 25.3873 18.3493 25.803 18.4539C26.6445 18.6553 26.6623 19.1985 26.5884 21.0574C26.5654 21.5853 26.5425 22.182 26.5425 22.8858C26.5425 23.0388 26.5348 23.202 26.5348 23.3754C26.5093 24.3214 26.4787 25.395 27.1468 25.8361C27.234 25.8908 27.3347 25.9199 27.4375 25.9203C27.6696 25.9203 28.3683 25.9203 30.2604 22.6741C30.8439 21.6293 31.351 20.5435 31.7776 19.4254C31.8159 19.3591 31.9281 19.1551 32.0607 19.0761C32.1585 19.0262 32.267 19.0008 32.3769 19.0021H36.9184C37.4131 19.0021 37.7523 19.0761 37.816 19.2673C37.9282 19.5708 37.7956 20.4964 35.7225 23.304L34.7968 24.5254C32.9175 26.9887 32.9175 27.1137 34.9141 28.9828Z"
+											fill="#FFCD29" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container  ">
+				<div class="footer-row">
+					<a href="#" class="footer-logo">
+						<img src="assets/img/footer-logo.svg" alt="">
+					</a>
+					<ul class="footer-list">
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Наши преимущества
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Возрастные группы
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Особенности занятий
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Дополнительные ценности
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Наша команда
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Отзывы
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Театральный фестиваль
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Вопрос-ответ
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Контакты
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Политика конфиденциальности
+							</a>
+						</li>
+					</ul>
+					<ul class="footer-list">
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Английский для школьников
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Подготовка к ОГЭ и ЕГЭ
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Подготовка к кембриджским экзаменам (KET, PET, FCE)
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Общий английский для взрослых
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Подготовка к TOEFL iBT
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Бизнес английский для взрослых
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Разговорный английский
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Занятия в мини-группах
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Индивидуальные занятия
+							</a>
+						</li>
+						<li class="footer-list-inner">
+							<a href="#" class="footer-list-link text">
+								Для корпоративных клиентов
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<div id="modal-test" class="modal__container-fon   modal-background">
+			<div class="modal__container">
+				<button class="modal-btn btn__modal--close">
+					<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1 1L19.1421 19.1421" stroke="#151515" stroke-width="2" stroke-linecap="round" />
+						<path d="M1 19.1421L19.1421 0.999999" stroke="#151515" stroke-width="2"
+							stroke-linecap="round" />
+					</svg>
+				</button>
+
+				<div class="groups__box modal-test-width">
+					<div class="groups__box-img">
+						<img src="assets/img/groups/groups-1.png" alt="">
+					</div>
+					<div class="groups__box-body">
+						<div class="groups__number">
+							1
+						</div>
+						<div class="groups__box-coll">
+							<h3 class="groups-box-title">
+								Kids - 7-8 лет
+							</h3>
+							<p class="groups-box-text text">
+								занятия 2 раза в неделю
+								по 60 мин
+							</p>
+						</div>
+					</div>
+					<button type="button" class="btn groups-btn btn__modal--close">
+						ЗАПИСАТЬСЯ НА ПРОБНЫЙ УРОК
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/app.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
