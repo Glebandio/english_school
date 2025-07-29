@@ -2250,6 +2250,17 @@ select {
   background: var(--pale-lavender);
 }
 
+.btn-swiper:hover{
+  background: var(--electric-indigo);
+}
+
+.btn-swiper:hover .btn-swiper-arrow path {
+    stroke: var(--white);
+  }
+
+
+.team__btn-prev.
+
 @media (hover: hover) {
   .btn-swiper:hover {
     background: var(--electric-indigo);
@@ -8119,7 +8130,7 @@ select {
 .picture__wrap{
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 колонки */
-  gap: 58px 12px;
+  gap: 10px 12px;
   margin-top: 50px;
 }
 
@@ -8148,6 +8159,18 @@ select {
       border: 2px solid var(--pale-lavender);
   }
 
+}
+
+@media (min-width:640px) {
+
+  .picture__card{
+    height:281px;
+  }
+
+  .picture__card-bottom{
+    height: 209px;
+  }
+  
 }
 
 @media (max-width:639px) {
@@ -8183,7 +8206,7 @@ select {
 .picture__card{
   width: 100%;
   border-radius: 30px;
-  height: 281px;
+  height: calc(100% - 40px);
   padding: 10px;
   position: relative;
 }
@@ -8236,7 +8259,7 @@ select {
   margin-top: 10px;
   border-radius: 20px;
   width: 100%;
-  height: 209px;
+  height: max-content;
 }
 
 .picture__text{
@@ -8387,18 +8410,20 @@ select {
 
 @media (max-width:960px) {
   .method{
-  margin-top: 60px;
-}
+    margin-top: 60px;
+  }
 }
 
 .method__wrap {
   margin-top: 44px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, max-content);
   grid-column-gap: 12px;
   grid-row-gap: 12px;
+  transition: 0.4s all;
 }
+
 .method__card{
   background: var(--lavender-blush);
   width: 100%;
@@ -8409,6 +8434,7 @@ select {
   flex-direction: column;
   padding: 10px;
   position: relative;
+  transition: 0.4s all;
 }
 
 .method__card:nth-child(even){
@@ -8434,7 +8460,6 @@ select {
   .method__card-image{
     min-width: 50px;
     height: 50px;
-
   }
 
   .method__card-image img{
@@ -8445,7 +8470,6 @@ select {
   .method__card-text p{
     font-size: 16px !important;
   }
-  
 }
 
 @media (max-width:959px ) {
@@ -8463,7 +8487,6 @@ select {
   .method__card:nth-child(4n+3) {
     background: var(--light-amber);
   }
-  
 }
 
 @media (max-width:640px) {
@@ -8480,7 +8503,6 @@ select {
     height: max-content;
     min-height: max-content;
     background: var(--lavender-blush) !important;
-
   }
 
   .method__card-text{
@@ -8497,10 +8519,10 @@ select {
 }
 
 @media (max-width:480px) {
-
   .method__card{
     height: max-content;
     min-height: max-content;
+    transition: 0.4s all ease-in-out;
   }
   .method__card-button{
     bottom: 10px !important;
@@ -8509,7 +8531,7 @@ select {
 
 .method__card-text p{
   margin-top: 10px;
-  max-width: 244px;
+  max-width: 230px !important;
   color: var(--black);
   font-family: Gilroy;
   font-size: 18px;
@@ -8532,27 +8554,29 @@ select {
 .method__card-description{
   max-height: 0;
   overflow: hidden;
-  transition: 0.4s;
-
+  transition: max-height 0.4s ease-in-out;
 }
 
-.active .method__card-description{
-  max-height: max-content;
+.method__card.active .method__card-description{
+  max-height: 500px; /* или больше, если нужно */
 }
 
 .method__card-description p{
   padding-bottom: 60px;
   padding-top: 10px;
+  transition: opacity 0.3s ease-in-out 0.1s;
+  opacity: 0;
 } 
 
+.method__card.active .method__card-description p{
+  opacity: 1;
+}
+
 .method__card-button.btn svg{
-  rotate: 0deg;
-  transition: all 0.4s;
-
+  transform: rotate(0deg);
+  transition: transform 0.4s ease-in-out;
 }
 
-.active .method__card-button.btn svg{
-  rotate: 45deg;
+.method__card.active .method__card-button.btn svg{
+  transform: rotate(45deg);
 }
-
-
