@@ -4931,6 +4931,8 @@ select {
 
   .groups__wrapp.years {
     gap: 50px !important;
+    margin-top: 0;
+    padding-top: 25px;
   }
 
   .groups__wrapp.years .groups-btn{
@@ -5335,7 +5337,7 @@ select {
 }
 @media (max-width: 772px) {
   .feature__box {
-    padding: 20px;
+    padding: 20px 20px 40px;
   }
 }
 
@@ -6178,7 +6180,7 @@ select {
 }
 @media (max-width: 992px) {
   .team {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 }
 
@@ -8108,6 +8110,12 @@ select {
   margin-top: 155px;
 }
 
+@media (max-width:992px) {
+  .picture{
+  margin-top: 60px;
+  }
+}
+
 .picture__wrap{
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 колонки */
@@ -8203,6 +8211,23 @@ select {
   background: var(--white);
   justify-content: center;
   border-radius: 20px;
+}
+
+.picture__card-image .mobile{
+  display: none;
+}
+
+@media (max-width:959px) {
+  .picture__card-image .mobile{
+    display: block;
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+  }
+
+  .picture__card-image .desktop{
+    display: none;
+  }
 }
 
 .picture__card-bottom{
@@ -8350,8 +8375,20 @@ select {
   margin-top: 120px;
 }
 
+@media (max-width:960px) {
+  .picture.frontpage{
+  margin-top: 60px;
+}
+}
+
 .method{
   margin-top: 90px;
+}
+
+@media (max-width:960px) {
+  .method{
+  margin-top: 60px;
+}
 }
 
 .method__wrap {
