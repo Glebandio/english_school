@@ -2204,19 +2204,22 @@ select {
 }
 
 .btn-swiper-arrow {
+  pointer-events: none;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   width: 18px;
   height: 27px;
 }
 .btn-swiper-arrow path {
+  pointer-events: none;
   stroke: var(--electric-indigo);
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
-  transition: 0.4s;
+  transition: stroke 0.4s ease;
 }
 @media (max-width: 1320px) {
   .btn-swiper-arrow {
+    pointer-events: none;
     width: 14px;
     height: 22px;
   }
@@ -2242,7 +2245,7 @@ select {
   border: 2px solid var(--electric-indigo);
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
-  transition: 0.4s;
+  transition: all 0.4s;
   cursor: pointer;
 }
 
@@ -2251,15 +2254,15 @@ select {
 }
 
 .btn-swiper:hover{
-  background: var(--electric-indigo);
+  background: var(--electric-indigo) !important;
 }
 
 .btn-swiper:hover .btn-swiper-arrow path {
     stroke: var(--white);
+    pointer-events: none;
   }
 
 
-.team__btn-prev.
 
 @media (hover: hover) {
   .btn-swiper:hover {

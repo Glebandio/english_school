@@ -118,25 +118,27 @@ document.addEventListener('DOMContentLoaded', function() {
         //     }
         // }
     });
-    const buttons = document.querySelectorAll('.method__card .btn');
+    const cards = document.querySelectorAll('.method__card');
     let currentlyActiveCard = null;
 
-    buttons.forEach(button => {
-        button.addEventListener('click', function() {
-            const card = this.closest('.method__card');
-            
-            if (card === currentlyActiveCard) {
-                card.classList.remove('active');
-                currentlyActiveCard = null;
-                return;
-            }
-            
-            if (currentlyActiveCard) {
-                currentlyActiveCard.classList.remove('active');
-            }
-            
-            card.classList.add('active');
-            currentlyActiveCard = card;
+    cards.forEach(card => {
+        card.addEventListener('click', function() {
+            toggleCard(card);
         });
     });
+
+    function toggleCard(card) {
+        if (card === currentlyActiveCard) {
+            card.classList.remove('active');
+            currentlyActiveCard = null;
+            return;
+        }
+        
+        if (currentlyActiveCard) {
+            currentlyActiveCard.classList.remove('active');
+        }
+        
+        card.classList.add('active');
+        currentlyActiveCard = card;
+    }
 });
