@@ -2613,6 +2613,9 @@ select {
 
 .header__top-coll {
   padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 @media (max-width: 1240px) {
   .header__top-coll {
@@ -6460,6 +6463,7 @@ select {
 
 .team__swiper {
   overflow: hidden;
+  padding-bottom: 30px;
 }
 @media (max-width: 450px) {
   .team__swiper {
@@ -8171,6 +8175,7 @@ select {
   }
 
   .picture__card-bottom{
+    min-height: 170px;
     height: 209px;
   }
   
@@ -8288,6 +8293,7 @@ select {
 }
 
 .picture_arrow{
+  padding-bottom: 30px;
   margin-top: 30px;
   display: flex;
   width: 100%;
@@ -8321,6 +8327,7 @@ select {
 }
 
 .projects__arrows{
+  padding-top: 20px;
   display: flex;
   justify-content: end;
 }
