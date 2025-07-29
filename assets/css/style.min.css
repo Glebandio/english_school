@@ -8175,10 +8175,18 @@ select {
   }
 
   .picture__card-bottom{
-    min-height: 170px;
+    min-height: 175px;
     height: 209px;
   }
   
+}
+
+.teenagers .reviews{
+  padding-top: 90px;
+}
+
+.picture__card-bottom p{
+  line-height: 130%;
 }
 
 @media (max-width:639px) {
@@ -8405,7 +8413,7 @@ select {
 }
 
 .picture.frontpage{
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 @media (max-width:960px) {
